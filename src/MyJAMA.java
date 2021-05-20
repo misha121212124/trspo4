@@ -12,7 +12,7 @@ public class MyJAMA {
 
     public static double[][] create(boolean column, int n, double max, double min) {
         Random r = new Random();
-        double[][] ab = new double[n][n];
+        double[][] ab = new double[n][1];
         for (int i = 0; i < n; i++)
             ab[i][0] = min + (max - min) * r.nextDouble();
         return ab;
