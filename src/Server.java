@@ -7,7 +7,7 @@ import java.util.Scanner;
 // Для роботи з вірткальної машиную потрібно поміняти Indound rule на All traffic і поставити там своє Ip з маскою 32
 
 public class Server implements Brain {
-    static double[][] L10, L12 L16, L17, L30, L32, L40, L42, L50;
+    static double[][] L10, L12, L16, L17, L30, L32, L40, L42, L50;
     static boolean showIntermediateResults = false;
 
     public static void main(String[] args) {
