@@ -70,7 +70,7 @@ public class Server implements Brain {
 
     public void getL30(double[][] a) {
         System.out.println("Обрахунок L30");
-        L30 =  MyJAMA.subtraction(a, L10);
+        L30 =  MyJAMA.subtraction(a, L17);
         if(showIntermediateResults) {
             System.out.println("Результат обрахунку:");
             MyJAMA.show(L30);
